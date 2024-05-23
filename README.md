@@ -16,3 +16,5 @@ The buttons allow the user to change the emotion to "sad" or "excited" by updati
 ### ![happy](https://github.com/vishalp23/React-Tutorial/assets/130540128/2749577f-2343-41d0-b757-2723009f74f0)
 ### ![exicited](https://github.com/vishalp23/React-Tutorial/assets/130540128/8eb337ec-5422-4610-ace5-55318812b637)
 ### ![sad](https://github.com/vishalp23/React-Tutorial/assets/130540128/40a323e2-55dc-4ec9-afc3-5b7f624b7e3c)
+
+the above three images show the change of state from happy (default) to exicited to sad state 
