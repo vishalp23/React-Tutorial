@@ -1,7 +1,7 @@
 # React-Tutorial
 Repository to learn React.js 
 # Hooks
-useState hook 
+## useState hook 
 UseState Component
 The UseState component is a simple demonstration of using the useState hook in React to manage state within a functional component.
 
