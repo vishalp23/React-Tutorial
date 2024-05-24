@@ -40,9 +40,9 @@ The component imports React and the `useState` and `useEffect` hooks from the Re
 
 ##### useEffect Hooks
 - **First `useEffect` Hook:**
-  - **Purpose:** Runs its effect (the `console.log` statement) whenever the `emotion` state variable changes.
-  - **Dependency Array:** The array `[emotion]` specifies that the effect should re-run only when `emotion` changes.
-  - **Effect:** Logs the message `It's ${emotion} around here` to the console when `emotion` is updated.
+  - **Purpose:** Runs its effect (the `console.log` statement) whenever the `emotion` or `secondary` state variable changes.
+  - **Dependency Array:** The array `[emotion, secondary]` specifies that the effect should re-run whenever either `emotion` or `secondary` changes.
+  - **Effect:** Logs the message `It's ${emotion} and ${secondary} around here` to the console when either `emotion` or `secondary` is updated.
 
 - **Second `useEffect` Hook:**
   - **Purpose:** Runs its effect (the `console.log` statement) whenever the `secondary` state variable changes.
@@ -55,5 +55,3 @@ The component renders a `div` containing:
 - Two buttons to change the `emotion` state to "sad" or "excited".
 - A subheading that displays the current `secondary` emotion.
 - A button to change the `secondary` state to "grateful".
-
-
