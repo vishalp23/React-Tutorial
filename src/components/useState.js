@@ -4,7 +4,7 @@ import { useState } from "react";
 function UseState(){
 
 const [emotion,setEmotion]=useState("happy");
-  
+
   return (
     <div className="App">
       
@@ -16,6 +16,7 @@ const [emotion,setEmotion]=useState("happy");
        <button onClick={()=>setEmotion("Exicited")}>
         Exicited 
        </button>
+       
       
     </div>
   );
