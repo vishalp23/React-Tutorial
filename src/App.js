@@ -1,16 +1,18 @@
 import './App.css';
-import UseState from './components/useState';
-import UseEffect from './components/useEffect';
-
+import UseEffect from './hooks/useEffect';
+import UseState from'./hooks/useState';
+import UseReducer from './hooks/useReducer';
+import UseRef from './hooks/useRef';
 function App() {
   
   
   return (
     <div className="App">
       
-        <UseState/> 
-       <UseEffect/>
-      
+      {/* <UseState/>  
+      <UseEffect/> */}
+      {/* <UseReducer/> */}
+      <UseRef/>
     </div>
   );
 }
